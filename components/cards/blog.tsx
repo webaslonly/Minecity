@@ -42,7 +42,7 @@ function BlogCard(blog: Props) {
         </div>
 
         {/* Title */}
-        <h2 className="text-3xl max-md:text-2xl font-creteRound group-hover:text-blue-500 transition-colors">
+        <h2 className="text -3xl max-md:text-2xl font-creteRound group-hover:text-blue-500 transition-colors">
           {blog.title}
         </h2>
         <p className="text-muted-foreground line-clamp-3">{blog.description}</p>
